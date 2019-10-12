@@ -16,4 +16,92 @@ html { box-sizing: border-box; }
 
 body {
     background-color: #bdc3c7;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: gainsboro;
+    font-size: 14px;
 }
+
+.jmeno {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    color: white;
+}
+
+.profil {
+    width: 250px;
+    margin: 20px;
+    background-color: #3f464d;
+    box-shadow: 1px 1px 5px 1px #31363b;
+    overflow: hidden;
+}
+
+.foto {
+    width: 100%;
+}
+
+.obsah {
+    padding: 17px;
+    text-align: left;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: gainsboro;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+    background-color: #3f464d;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    padding-left: 0px;
+}
+
+.hlavicka {
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    background-color: #b92e81;
+    border-radius: 50%; 
+    box-shadow: 1px 2px 6px 3px #31363b;
+    left: 175px;
+    top: 145px;
+}
+
+.facebook {
+    float: left;
+    width: 50%;
+    border-right: gainsboro solid 0.1px;
+}
+
+.twitter {
+    float: right;
+    width: 50%;
+}
+
+.portfolio {
+    border-top: gainsboro solid 0.1px;
+    border-bottom: gainsboro solid 0.1px;
+}
+
+.portfolio a:hover {
+    background-color: #e74c3c;
+}
+
+.twitter a:hover {
+    background-color: #1da1f2;
+}
+.facebook a:hover {
+    background-color: #3b5998;
+}
+
